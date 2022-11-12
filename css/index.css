@@ -1,0 +1,189 @@
+/*************THE HERO SECTION***********************
+****************************************************/
+.hero-section {
+  margin: 9.6rem 4.2rem 0 4.2rem;
+  padding: 2.2rem 4.8rem;
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: 2fr 1fr;
+  max-width: 112.5rem;
+  color: #fff;
+}
+.hero-section-main {
+  display: flex;
+  align-items: center;
+  padding: 2.8rem;
+  max-width: 68rem;
+  height: 37.3rem;
+  border-radius: 4rem;
+  background: #609eaf;
+  background-image: url(../images/icons/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.hero-section-main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4.8rem;
+  width: 50%;
+}
+.hero-heading-text {
+  font-size: 1.2rem;
+}
+.hero-main-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+.hero-sub-heading-text {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.musica-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+}
+.user-review-image {
+  display: flex;
+  align-items: center;
+}
+.user-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: -1.6rem;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-artist-image {
+  width: 37rem;
+  height: 37.3rem;
+}
+
+/* ***HERO ASIDE*******/
+
+.hero-chart-header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #efeee0;
+  margin-bottom: 1.6rem;
+}
+
+.hero-chart-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+.hero-card-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.hero-chart-image {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 1rem;
+}
+.hero-chart-sub-header {
+  font-size: 1.7rem;
+}
+.hero-artist-name {
+  font-size: 1.2rem;
+  color: #ffffff80;
+}
+.hero-song-duration {
+  font-size: 1.2rem;
+}
+.hero-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: 1px solid #ffffff1c;
+  border-radius: 50%;
+}
+
+/*************THE NEW RELEASE SECTION*****************
+****************************************************/
+.new-album-section {
+  margin: 0 4.2rem;
+  padding: 2.2rem 4.8rem;
+  max-width: 112.5rem;
+}
+.new-album-header {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: #efeee0;
+}
+.new-album-released {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1.8rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: pointer;
+}
+.new-album-released::-webkit-scrollbar {
+  display: none;
+}
+.new-album {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.new-album p,
+span {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff80;
+}
+.album-cover-img {
+  border-radius: 2.5rem;
+}
+
+/*************THE NEW RELEASE SECTION*****************
+****************************************************/
+.popular-album-section {
+  margin: 0 4.2rem;
+  padding: 2.2rem 4.8rem;
+  max-width: 112.5rem;
+}
+.popular-albums {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1.8rem;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: pointer;
+}
+.popular-albums::-webkit-scrollbar {
+  display: none;
+}
+
+.popular-album-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}

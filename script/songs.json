@@ -1,0 +1,46 @@
+{
+  "songs": [
+    {
+      "artist": "Tatiana",
+      "name": "african giant",
+      "path": "music/tatiana.mp3",
+      "duration": 200,
+      "cover": "images/new-release-4.png"
+    },
+    {
+      "artist": "Fireboy",
+      "name": "jealousy",
+      "path": "music/Fireboy_Dml_Jealous.mp3",
+      "duration": 190,
+      "cover": "images/new-release-2.png"
+    },
+    {
+      "artist": "Ed-Sheeran",
+      "name": "i don't care",
+      "path": "music/Ed-Sheeran.mp3",
+      "duration": 230,
+      "cover": "images/new-release-6.png"
+    },
+    {
+      "artist": "Wade-coal",
+      "name": "Again",
+      "path": "music/Wande-Coal-Again.mp3",
+      "duration": 200,
+      "cover": "images/new-release-3.png"
+    },
+    {
+      "artist": "Luis Fonsi & Daddy Yankee Ft. Justin Bieber",
+      "name": "Despacito (Remix)",
+      "path": "music/Luis Fonsi & Daddy Yankee Ft. Justin Bieber - Despacito (Remix).mp3",
+      "duration": 200,
+      "cover": "images/new-release-3.png"
+    },
+    {
+      "artist": "preview",
+      "name": "preview",
+      "path": "music/preview.mp3",
+      "duration": 200,
+      "cover": "images/new-release-1.png"
+    }
+  ]
+}

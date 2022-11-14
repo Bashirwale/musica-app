@@ -189,5 +189,5 @@ songDatabase.onreadystatechange = function () {
     }, 500);
   }
 };
-songDatabase.open("GET", "songs.json", true);
+songDatabase.open("GET", "/script/songs.json", true);
 songDatabase.send();

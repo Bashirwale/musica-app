@@ -146,6 +146,8 @@
   /*HERO SECTION*/
   .hero-section {
     grid-template-columns: 1fr;
+    margin: 9.6rem 4.2rem 0 0;
+    padding: 2.2rem;
   }
   .hero-section-main {
     height: 50rem;
@@ -218,7 +220,12 @@
   .hero-chart-sub-header {
     margin-bottom: 1.6rem;
   }
-
+  .new-album-section {
+    padding: 2.2rem;
+  }
+  .popular-album-section {
+    padding: 2.2rem;
+  }
   /*****MAIN CHART SECTION*****/
   .top-chart-section {
     margin: 8.4rem 0;

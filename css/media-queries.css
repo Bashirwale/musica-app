@@ -321,7 +321,7 @@
     width: 22rem;
     height: 0.4rem;
   }
-  .music-player-volume {
+  .music-player-volume img {
     height: 1.2rem;
   }
   .volume-slider[type="range"] {
